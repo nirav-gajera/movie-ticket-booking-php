@@ -9,8 +9,7 @@ if(isset($_GET['id'])){
 			$meta['duration_hour'] = $v[0];
 			$v[1] = isset($v[1]) ? $v[1] : 0;
 		 	$meta['duration_min'] = 60 * ('.'.$v[1]);
-
-	}
+		}
 	}
 }
 

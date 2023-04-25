@@ -4,9 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Admin panel</title>
- 	
+    <title>Admin panel</title>
 
 <?php
 	session_start();
@@ -25,14 +23,11 @@
 	<?php include 'topbar.php' ?>
 	<?php include 'navbar.php' ?>
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-body text-white">
-    </div>
+    <div class="toast-body text-white"> </div>
   </div>
   <main id="view-panel">
       <?php $page = isset($_GET['page']) ? $_GET['page'] :'book'; ?>
   	<?php include $page.'.php' ?>
-  	
-
   </main>
 
   <div id="preloader"></div>

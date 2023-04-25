@@ -4,6 +4,7 @@
 		height: 75px;
 		margin:auto;
 	}
+	
 </style>
 <?php include ('db_connect.php') ?>
 <div class="container-fluid">

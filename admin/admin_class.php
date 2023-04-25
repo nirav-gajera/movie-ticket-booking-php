@@ -22,7 +22,7 @@ Class Action {
 			}
 			// var_dump($_SESSION);
 			return 1;
-		}else{
+		} else {
 			return 2;
 		}
 	}
