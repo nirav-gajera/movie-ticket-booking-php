@@ -1,8 +1,8 @@
-# movie-ticket-booking-php
-movie ticket seat reservation project using js, jquery & php-oops
+## movie-ticket-booking-php
+-movie ticket seat reservation project using js, jquery & php-oops
 
-create database using 'theater_db.sql' file form database folder
+-import database using 'theater_db.sql' file form database folder
 
-run index.php file
+-run index.php file
 
-id and password is available in database
+-id and password is available in database
