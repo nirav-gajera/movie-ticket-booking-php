@@ -2,8 +2,7 @@
   include 'admin/db_connect.php';
   $movies = $conn->query("SELECT * FROM movies where '".date('Y-m-d')."' BETWEEN date(date_showing) and date(end_date) order by rand() limit 10");
 ?>
-
-     <center><h3 class="text-primary">Now Showing </h3></center>
+  <center><h3 class="text-primary">Now Showing </h3></center>
 
 <div id="movie-carousel-field">
 
