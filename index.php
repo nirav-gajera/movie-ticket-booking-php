@@ -7,18 +7,17 @@
         <meta name="author" content="" />
 
         <?php
-	    session_start();
-        if(!isset($_SESSION['login_id']))
-        header('location:login.php');
-        //include('./header.php'); 
- 
- ?>
+		session_start();
+        	if(!isset($_SESSION['login_id']))
+        	header('location:login.php');
+        	//include('./header.php'); 
+ 	?>
+	    
         <title>Movie Seat Booking</title>
         <link src="admin/assets/font-awesome/css/all.js"/>
         <script src="admin/assets/vendor/jquery/jquery.min.js"></script>
         <script src="admin/assets/font-awesome/js/all.js"></script>
-       
-        <link href="css/styles.css" rel="stylesheet" />
+       <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
