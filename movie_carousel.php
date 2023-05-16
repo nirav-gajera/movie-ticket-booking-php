@@ -5,8 +5,7 @@
   <center><h3 class="text-primary">Now Showing </h3></center>
 
 <div id="movie-carousel-field">
-
-  <div class="list-prev list-nav">
+   <div class="list-prev list-nav">
     <a href="javascript:void(0)" class="text"><i class="fa fa-angle-left"></i></a>
   </div>
   <div class="list">
@@ -23,7 +22,6 @@
     <a href="javascript:void(0)" class="text"><i class="fa fa-angle-right"></i></a>
   </div>
 </div>
-
 <script>
   
   $('#movie-carousel-field .list-next').click(function(){
