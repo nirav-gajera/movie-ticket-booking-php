@@ -8,17 +8,18 @@
   <title>User Login</title>
  	
 
-  <?php include('./header.php'); ?>
+ <?php include('./header.php'); ?>
+
 <?php 
-session_start();
-if(isset($_SESSION['login_id']))
-header("location:index.php");
+	session_start();
+	if(isset($_SESSION['login_id']))
+	header("location:index.php");
 ?>
 
 </head>
 <style>
 	body{
-		width: 100%;
+	    width: 100%;
 	    height: calc(100%);
 	    background: #007bff;
 	}
